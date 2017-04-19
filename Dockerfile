@@ -27,7 +27,7 @@ RUN set -x \
  && eval `opam config env` \
  && git clone https://github.com/yutopp/rill.git \
  && cd rill \
- && git checkout --force 0d98595f3ce497831fcdcf2f4c0da78f7cd1c5b7 \
+ && git checkout --force 2c2e05e5a772d5f6f9d2ce49b861fae283d15082 \
  && omake RELEASE=true \
  && sudo -E env "PATH=$PATH" omake install
 

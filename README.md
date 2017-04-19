@@ -22,9 +22,9 @@ rillc ~/rill/examples/fizzbuzz.rill -o a.out
 ./a.out
 ```
 
-### Use the Container as a Compiler
+### Container as a Compiler
 
-You can use this container as a Rill compiler by using the following function on bash.
+You can use this container as the Rill compiler by the following function on bash.
 
 ``` bash
 rillc () {

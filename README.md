@@ -1,6 +1,6 @@
 ## About
 
-This repository contains some [Docker](https://www.docker.com/) container definitions for [Rill programming language](https://github.com/yutopp/rill).
+This repository contains some [Docker](https://www.docker.com/) container definitions for [the Rill programming language](https://github.com/yutopp/rill).
 
 ## Containers
 

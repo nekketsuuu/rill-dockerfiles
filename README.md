@@ -11,7 +11,7 @@ This repository contains some [Docker](https://www.docker.com/) container defini
 ## Usage
 
 ``` bash
-docker run -it --rm rill bash  # Note: Sometimes `sudo` is required.
+docker run -it --rm nekketsuuu/rill bash  # Note: Sometimes `sudo` is required.
 ```
 
 In the container, you can use `rillc`. For example,
@@ -29,7 +29,7 @@ You can use this container as the Rill compiler by the following function on bas
 ``` bash
 rillc () {
     local args="$@" ;
-    docker run --rm -u $(id -u):$(id -g) -v $(pwd):/code rill:latest bash -c "cd /code && rillc $args"
+    docker run --rm -u $(id -u):$(id -g) -v $(pwd):/code nekketsuuu/rill:latest bash -c "cd /code && rillc $args"
 }
 ```
 
@@ -44,8 +44,8 @@ cd rill/examples && rillc fizzbuzz.rill -o a.out
 To build a docker container locally, run
 
 ``` bash
-docker build -t rill:test .
-docker run -it --rm rill:test bash
+docker build -t rill .
+docker run -it --rm rill bash
 ```
 
 ## Contributing

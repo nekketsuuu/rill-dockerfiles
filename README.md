@@ -4,9 +4,9 @@ This repository contains some [Docker](https://www.docker.com/) container defini
 
 ## Containers
 
-| Rill Version | Command |
-|:-------------|:--------|
-| [2c2e05e](https://github.com/yutopp/rill/commit/2c2e05e5a772d5f6f9d2ce49b861fae283d15082) | `docker pull nekketsuuu/rill:2c2e05e` |
+| Rill Version | Command | Memo |
+|--------------|---------|------|
+| [2c2e05e](https://github.com/yutopp/rill/commit/2c2e05e5a772d5f6f9d2ce49b861fae283d15082) | `docker pull nekketsuuu/rill:2c2e05e` | Compatible with [進捗大陸01](https://yutopp.github.io/shinchoku-tairiku-web/01) |
 
 ## Usage
 

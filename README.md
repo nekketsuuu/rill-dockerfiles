@@ -29,7 +29,7 @@ You can use this container as the Rill compiler by the following function on bas
 ``` bash
 rillc () {
     local args="$@" ;
-    docker run --rm -u $(id -u):$(id -g) -v $(pwd):/code nekketsuuu/rill:latest bash -c "cd /code && rillc $args"
+    docker run --rm -u "$(id -u)":"$(id -g)" -v "$(pwd)":/code nekketsuuu/rill:latest bash -c "cd /code && rillc $args"
 }
 ```
 

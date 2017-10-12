@@ -1,3 +1,5 @@
+**Depricated**: The official repository of [Rill](https://github.com/yutopp/rill) came to distribute Dockerfile. Use the official images.
+
 ## About
 
 This repository contains some [Docker](https://www.docker.com/) container definitions for [the Rill programming language](https://github.com/yutopp/rill).
